@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.top {
+    background-image: url("images/danielchodusov.jpg");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner ul li {
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 15px;
+    font-weight: 100;
+    display: inline-block;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+
+.banner ul {
+    float: right;
+    margin-right: 70px;
+}
+
+.top h1 {
+    font-family: "Myriad Pro";
+    color: #ffffff;
+    font-size: 59.77px;
+    font-weight: 100;
+    padding-top: 200px;
+}
+
+#top_content {
+    text-align: center;
+    z-index: 0;
+    height: 500px;
+}
+
+#top_content hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ffffff;
+    padding: 0;
+    width: 670px;
+    margin: 0 auto;
+}
+
+#top_content h2 {
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 22px;
+    font-weight: 100;
+    padding-top: 20px;
+}
+
+.click {
+    position: relative;
+    bottom:30px;
+    margin: 0 auto;
+}
+
+.go_ahead {
+    background-image: url("images/Container.png");
+    background-repeat: no-repeat;
+    position: relative;
+    height:57px;
+    width:218px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 24.1px;
+    z-index: 20;
+    bottom:28px;
+    margin:0 auto;
+    padding: 16px 0 0 0;
+    text-align: center;
+}
+
+.text {
+    margin: 0 auto;
+    width: 768px;
+}
+
+.text h2 {
+    color: #1abc9c;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+
+.text p {
+    color: #b5bfc0;
+    text-align: center;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.icons {
+    text-align: center;
+}
+
+.sketching {
+    width: 250px;
+    height: 64px;
+    float: left;
+    margin-top: 80px;
+    margin-right: 111px;
+    margin-left: 120px;
+}
+
+.design {
+    width: 250px;
+    height: 64px;
+    float: left;
+    margin-top: 80px;
+    margin-right: 111px;
+}
+
+.finalize {
+    width: 250px;
+    height: 64px;
+    float: left;
+    margin-top: 80px;
+}
